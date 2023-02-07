@@ -1,0 +1,25 @@
+{
+  "name": "logseq-to-flomo-plugin",
+  "version": "0.1.1",
+  "description": "A Logseq plugin that send block to Flomo",
+  "author": "shady2k",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dayjs": "^1.10.7",
+    "@logseq/libs": "^0.0.6"
+  },
+  "logseq": {
+    "main": "dist/index.html",
+    "id": "_stfhku0m9",
+    "title": "Logseq To Flomo",
+    "icon": "./icon.png"
+  }
+}
